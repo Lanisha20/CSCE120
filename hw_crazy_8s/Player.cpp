@@ -118,8 +118,6 @@ Card* Player::playCard(vector<string> const& suits, string& currentRank, string&
                 }
                 //break;
             }
-            // i'm so lost in my loops and if statements :( might need to clean this up 
-            // THIS IS WHY YOU INCREMENTALLY CODE... i apologize to my grader
             if (cardExists==false) {
                 if (!chosenCard && cardInHand == false) {
                     cout << "That's not a card you have. Try again" << ".\n";
